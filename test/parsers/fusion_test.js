@@ -25,15 +25,13 @@ var groupData = {
 
 var file = new File('en');
 var fileData = {
-  'FusionLanguageFile': {
-    '$': {
-      'languageId': file.lang
-    },
-    'Group':[
-      groupData,
-      groupData
-    ]
+  '$': {
+    'languageId': file.lang
   },
+  'Group':[
+    groupData,
+    groupData
+  ]
 };
 
 describe('Parser for Fusion language file', function () {
@@ -66,6 +64,6 @@ describe('Parser for Fusion language file', function () {
       lbl._file.should.be.an.instanceof(File);
       count++;
     });
-//    count.should.equal(4);
+    count.should.equal(4);
   });
 });
