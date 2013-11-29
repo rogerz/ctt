@@ -9,16 +9,13 @@ module.exports = function (grunt) {
   // Project configuration.
   grunt.initConfig({
     mochaTest: {
-     options: {
-	ui: 'tdd'
-     }, 
      test: {
         src: ['test/**/*.js']
       }
     },
     jshint: {
       options: {
-        jshintrc: '.jshintrc',
+        jshintrc: true,
         reporter: require('jshint-stylish')
       },
       gruntfile: {
