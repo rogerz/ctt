@@ -34,6 +34,21 @@ var fileData = {
   ]
 };
 
+var strings = {};
+strings[file.lang] = label.text;
+var entry = {
+  'strings': strings,
+  'context': [
+    {
+      'type': file.type,
+      'data': {
+        'group': group.id,
+        'label': label.id
+      }
+    }
+  ]
+};
+
 describe('Parser for Fusion language file', function () {
   it('should export TYPE', function () {
     parser.should.have.properties('TYPE');
@@ -65,5 +80,10 @@ describe('Parser for Fusion language file', function () {
       count++;
     });
     count.should.equal(4);
+  });
+
+  it('should convert label to entry', function () {
+    label.group(group).file(file);
+    label.toEntry().should.eql(entry);
   });
 });
