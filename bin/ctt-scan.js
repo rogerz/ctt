@@ -12,7 +12,7 @@ program
   .version(pkg.version)
   .option('-i, --in <filename>', 'Language file to be parsed. If not specified, defaults to stdin')
   .option('-o, --out <filename>', 'The output file. If not specified, defaults to stdout')
-  .option('-t, --type <type>', 'File type')
+  .option('-t, --type <type>', 'File type');
 
 function outputDict(dict) {
   var output = dict.stringify();
@@ -28,8 +28,17 @@ function outputDict(dict) {
   }
 }
 
+function parseInput(text) {
+  var dict = new Dict();
+  var type = program.type || 'fusion';
+  scanner.parseString(type, text, function (entry) {
+    dict.addEntry(entry);
+  });
+  outputDict(dict);
+}
+
 function run() {
-  var text = "";
+  var text = '';
   if (program.in) {
     try {
       text = fs.readFileSync(program.in);
@@ -44,12 +53,7 @@ function run() {
       text += d;
     });
     process.stdin.on('end', function() {
-      var dict = new Dict();
-      var type = program.type || 'fusion';
-      scanner.parseString(type, text, function (entry) {
-        dict.addEntry(entry);
-      });
-      outputDict(dict);
+      parseInput(text);
     });
   }
 }
