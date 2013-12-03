@@ -1,8 +1,8 @@
-var fusion = require('../../lib/plugins/fusion').Scanner;
+var scanner = require('../../lib/plugins/fusion').scanner;
 
-var File = fusion.File;
-var Group = fusion.Group;
-var Label = fusion.Label;
+var File = scanner.File;
+var Group = scanner.Group;
+var Label = scanner.Label;
 
 var label = new Label('1', 'text');
 var labelData = {
@@ -49,13 +49,13 @@ var entry = {
   ]
 };
 
-describe('Fusion for Fusion language file', function () {
+describe('Scanner for Scanner language file', function () {
   it('should export TYPE', function () {
-    fusion.should.have.properties('TYPE');
+    scanner.should.have.properties('TYPE');
   });
 
   it('should parse label from data', function () {
-    fusion.parseLabel(labelData, function(lbl) {
+    scanner.parseLabel(labelData, function(lbl) {
       lbl.should.be.an.instanceof(Label);
       lbl.id.should.equal(label.id);
       lbl.text.should.equal(label.text);
@@ -64,7 +64,7 @@ describe('Fusion for Fusion language file', function () {
 
   it('should parse group from data', function () {
     var count = 0;
-    fusion.parseGroup(groupData, function (lbl) {
+    scanner.parseGroup(groupData, function (lbl) {
       lbl.should.be.an.instanceof(Label);
       lbl._group.should.be.an.instanceof(Group);
       count++;
@@ -74,7 +74,7 @@ describe('Fusion for Fusion language file', function () {
 
   it('should parse file from data', function () {
     var count = 0;
-    fusion.parseFile(fileData, function (lbl) {
+    scanner.parseFile(fileData, function (lbl) {
       lbl.should.be.an.instanceof(Label);
       lbl._file.should.be.an.instanceof(File);
       count++;
