@@ -1,4 +1,4 @@
-var fusion = require('../../lib/plugins/fusion');
+var fusion = require('../../lib/plugins/fusion').Scanner;
 
 var File = fusion.File;
 var Group = fusion.Group;
