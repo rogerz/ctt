@@ -6,6 +6,7 @@ var fs = require('fs');
 var program = require('commander');
 var pkg = require('../package');
 var scanner = require('../lib/scanner');
+var Dict = require('../lib/dict');
 
 program
   .version(pkg.version)
@@ -43,8 +44,12 @@ function run() {
       text += d;
     });
     process.stdin.on('end', function() {
+      var dict = new Dict();
       var type = program.type || 'fusion';
-      scanner.parseString(type, text, outputDict);
+      scanner.parseString(type, text, function (entry) {
+        dict.addEntry(entry);
+      });
+      outputDict(dict);
     });
   }
 }
