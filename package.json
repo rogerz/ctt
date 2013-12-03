@@ -1,17 +1,11 @@
 {
-  "name": "scanner",
+  "name": "ctt",
   "version": "0.0.0",
-  "main": "lib/scanner.js",
-  "description": "scan language file and create dictionary",
-  "homepage": "https://github.com/rogerz/scanner",
-  "bugs": "https://github.com/rogerz/scanner/issues",
+  "main": "lib/index.js",
+  "description": "Collaborative translation toolkit",
   "author": {
-    "name": "Rogerz Zhang",
-    "email": "rogerz.zhang@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rogerz/scanner"
+    "name": "Yujun ZHANG",
+    "email": "yujun.zhang@schneider-electric.com"
   },
   "licenses": [
     {

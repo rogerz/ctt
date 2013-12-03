@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FusionLanguageFile xmlns="http://www.schneider-electric.com/Fusion/Language" languageId="fr-CA" languageName="Français du Canada" version="1" revision="0">
+  <Group id="0">
+    <Label id="1">[ColAlm]74 TCS - Alarm</Label>
+    <Label id="2">[Ind1]Digital input 1</Label>
+  </Group>
+  <Group id="1">
+    <Label id="1">IED NamePlate</Label>
+    <Label id="2">IED Health</Label>
+  </Group>
+</FusionLanguageFile>
