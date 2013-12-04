@@ -82,4 +82,43 @@ describe('Printer', function () {
     });
   });
 
+  describe('Printer', function () {
+    var prn = new printer.Printer('en');
+    var Entry = require('../../lib/entry');
+    it('should add entry', function () {
+      var entry = new Entry().addString('en', 'hello')
+        .addContext('fusion', {group: '1', label:'2'});
+      prn.addEntry(entry);
+      prn.data().should.eql({
+        'FusionLanguageFile': {
+          '$': {
+            'languageId': 'en'
+          },
+          'Group': [{
+            '$': {
+              'id': '1'
+            },
+            'Label': [{
+              '$': {
+                'id': '2'
+              },
+              '_': 'hello'
+            }]
+          }]
+        }
+      });
+    });
+    it('should print XML', function () {
+      /* jshint multistr:true */
+      var xml = '\
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n\
+<FusionLanguageFile languageId="en">\n\
+  <Group id="1">\n\
+    <Label id="2">hello</Label>\n\
+  </Group>\n\
+</FusionLanguageFile>\n';
+
+      prn.printXML().should.eql(xml);
+    });
+  });
 });
