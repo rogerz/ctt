@@ -12,13 +12,13 @@ describe('Entry', function () {
     entry.context.should.be.an.instanceof(Array);
   });
   it('should add string', function () {
-    entry.lang('en', 'hello');
+    entry.addString('en', 'hello');
     entry.strings.should.eql({
       'en': 'hello'
     });
   });
   it('should add context', function () {
-    entry.lang('en', 'hello').ctx('fusion', {group: 1, label: 1});
+    entry.addString('en', 'hello').addContext('fusion', {group: 1, label: 1});
     entry.should.eql({
       'strings': {
         'en': 'hello'
