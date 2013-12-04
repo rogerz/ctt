@@ -49,7 +49,7 @@ var entry = {
   ]
 };
 
-describe('Scanner for Scanner language file', function () {
+describe('Scanner', function () {
   it('should parse label from data', function () {
     scanner.parseLabel(labelData, function(lbl) {
       lbl.should.be.an.instanceof(Label);
