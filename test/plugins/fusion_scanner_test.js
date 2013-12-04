@@ -1,4 +1,4 @@
-var scanner = require('../../lib/plugins/fusion/scanner');
+var scanner = require('../../plugins/fusion/scanner');
 
 var File = scanner.File;
 var Group = scanner.Group;

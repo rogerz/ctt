@@ -1,6 +1,6 @@
 'use strict';
 
-var printer = require('../../lib/plugins/fusion/printer');
+var printer = require('../../plugins/fusion/printer');
 
 describe('Printer', function () {
   var label, group, lang;

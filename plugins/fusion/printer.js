@@ -104,7 +104,7 @@ Printer.prototype.data = function () {
 Printer.prototype.addEntry = function (entry) {
   var self = this;
   var plugin = require('./index');
-  var Entry = require('../../entry');
+  var Entry = require('../../lib/entry');
   Entry.prototype.extract.call(entry, this.lang.id, plugin.TYPE, function (text, ctx) {
     var group = self.lang.findGroup(ctx.group, function () {
       return new GroupBuilder(ctx.group);
