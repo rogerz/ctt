@@ -32,4 +32,11 @@ describe('Entry', function () {
       }]
     });
   });
+  it('should extract information', function () {
+    entry.addString('en', 'hello').addContext('fusion', {group: 1, label: 1});
+    entry.extract('en', 'fusion', function (text, ctx) {
+      text.should.eql('hello');
+      ctx.should.eql({group: 1, label: 1});
+    });
+  });
 });
