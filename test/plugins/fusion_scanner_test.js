@@ -50,10 +50,6 @@ var entry = {
 };
 
 describe('Scanner for Scanner language file', function () {
-  it('should export TYPE', function () {
-    scanner.should.have.properties('TYPE');
-  });
-
   it('should parse label from data', function () {
     scanner.parseLabel(labelData, function(lbl) {
       lbl.should.be.an.instanceof(Label);
