@@ -8,13 +8,14 @@ var pkg = require('../package');
 var ctt = require('../lib');
 var Dict = require('../lib/dict');
 
-var plugin;
-
 program
   .version(pkg.version)
-  .option('-i, --in <filename>', 'Language file to be parsed. If not specified, defaults to stdin')
-  .option('-o, --out <filename>', 'The output file. If not specified, defaults to stdout')
-  .option('-t, --type <type>', 'File type');
+  .option('-i, --in <filename>', 'Source dictionary file. If not specified, defaults to stdin')
+  .option('-o, --out <filename>', 'Target language file, defaults to stdout')
+  .option('-t, --type <type>', 'Plugin to be used, defaults to "fusion"')
+  .option('-l, --lang <langId>', 'Lanuguage to print');
+
+var plugin;
 
 function output(data) {
   if (program.out) {
@@ -30,17 +31,19 @@ function output(data) {
 }
 
 function input(text) {
-  var dict = new Dict();
-  plugin.scan(text, function (entry) {
-    dict.addEntry(entry);
+  var dict = new Dict(text);
+  var prn = new plugin.Printer(program.lang || 'fr-CA');
+  dict.iterate(function (entry) {
+    prn.addEntry(entry);
   });
-  output(dict.stringify());
+  output(prn.printXML());
 }
+
+// TODO: reuse code in ctt-scanner
 
 function run() {
   var text = '';
   plugin = ctt.getPlugin(program.type || 'fusion');
-
   if (program.in) {
     try {
       text = fs.readFileSync(program.in);
@@ -60,14 +63,9 @@ function run() {
   }
 }
 
-function main() {
-  var argv = process.argv;
-  program.parse(argv);
-  run();
-}
-
 module.exports = program;
 
 if (module.parent === null) {
-  main();
+  program.parse(process.argv);
+  run();
 }
