@@ -1,14 +1,9 @@
-# scanner [![Build Status](https://secure.travis-ci.org/rogerz/scanner.png?branch=master)](http://travis-ci.org/rogerz/scanner)
+# ctt
 
-scan language file and create dictionary
+Collaborative translation toolkit
 
 ## Getting Started
-Install the module with: `npm install scanner`
-
-```javascript
-var scanner = require('scanner');
-scanner.awesome(); // "awesome"
-```
+_(Comming soon)_
 
 ## Documentation
 _(Coming soon)_
@@ -23,4 +18,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 Rogerz Zhang. Licensed under the MIT license.
+Copyright (c) 2013 Yujun Zhang. Licensed under the MIT license.
