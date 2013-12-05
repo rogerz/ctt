@@ -1,0 +1,732 @@
+group,label,en,zh-CN,fr-CA
+0,1,,,[ColAlm]74 TCS - Alarm
+0,2,,,[Ind1]Digital input 1
+0,3,,,[Ind2]Digital input 2
+0,4,,,[Ind3]Digital input 3
+0,5,,,[Ind4]Digital input 4
+0,6,,,[OpCntWrn]Warning CB Operation Number
+0,7,,,[SumSwAPhsA]Total IA Broken
+0,8,,,[SumSwAPhsA]Total IB Broken
+0,9,,,[SumSwAPhsA]Total IC Broken
+0,10,,,[Active Group]Activated setting group 
+1,1,,,IED NamePlate
+1,2,,,IED Health
+1,3,,,Logical Device is not a Proxy
+1,4,,,"[IED Language]Preferred IED language applicable
+for IEC61850, log and comtrade file"
+1,5,,,"Behaviour Options if Ambient Temp input is
+lost"
+1,6,,,CLPU activation mode
+1,7,,,CTS Operating mode
+1,8,,,Number of SOL order
+1,9,,,Phase Rotation
+1,10,,,TCS Scheme Status
+1,11,,,Nominal Frequency
+3,0,,,[ControlLLN0]ControlLLN0
+3,1,,,"[CT EARTH]CONFIGURATION OF EARTH CURRENT
+TRANSFORMERS"
+3,2,,,"[CT VS EARTH]CONFIGURATION OF EARTH VS CURRENT
+TRANSFORMERS"
+3,3,,,"[HW SUM EARTH]CONFIGURATION OF HW SUM EARTH
+CURRENT TRANSFORMERS"
+3,4,,,[LPHD1]LPHD1
+3,5,,,[MdbSerITCI1]MdbSerITCI1
+3,6,,,[MdbTcpITCI1]MdbTcpITCI1
+3,7,,,[MeasurementLLN0]MeasurementLLN0
+3,8,,,[P5AMSQI1]P5AMSQI1
+3,9,,,[P5CBCSWI1]P5CBCSWI1
+3,10,,,[P5CBSCBR1]P5CBSCBR1
+3,11,,,[P5CBXCBR1]P5CBXCBR1
+3,12,,,[P5CLPUGAPC1]P5CLPUGAPC1
+3,13,,,[P5CTSGAPC1]P5CTSGAPC1
+3,14,,,[P5EFPTOC1]P5EFPTOC1
+3,15,,,[P5EFPTOC2]P5EFPTOC2
+3,16,,,[P5EFPTOC3]P5EFPTOC3
+3,17,,,[P5EFPTOC4]P5EFPTOC4
+3,18,,,[P5EFPTOC5]P5EFPTOC5
+3,19,,,[P5EFPTOC6]P5EFPTOC6
+3,20,,,[P5EFPTOC7]P5EFPTOC7
+3,21,,,[P5EFPTOC8]P5EFPTOC8
+3,22,,,[P5HMIIHMI1]P5HMIIHMI1
+3,23,,,[P5IDPHAR1]P5IDPHAR1
+3,24,,,[P5LKRLGAPC1]P5LKRLGAPC1
+3,25,,,[P5NPSPTOC1]P5NPSPTOC1
+3,26,,,[P5NPSPTOC2]P5NPSPTOC2
+3,27,,,[P5NPSPTOC3]P5NPSPTOC3
+3,28,,,[P5NPSPTOC4]P5NPSPTOC4
+3,29,,,[P5PHPTOC1]P5PHPTOC1
+3,30,,,[P5PHPTOC2]P5PHPTOC2
+3,31,,,[P5PHPTOC3]P5PHPTOC3
+3,32,,,[P5PHPTOC4]P5PHPTOC4
+3,33,,,[P5PHTCTT1]P5PHTCTT1
+3,34,,,[P5PTRC1]P5PTRC1
+3,35,,,[P5RBRF1]P5RBRF1
+3,36,,,[P5RMSAMMXU1]P5RMSAMMXU1
+3,37,,,[P5SOLGAPC1]P5SOLGAPC1
+3,38,,,[P5SOTFGAPC1]P5SOTFGAPC1
+3,39,,,[P5StdCALH]P5StdCALH
+3,40,,,[P5T1LPDI1]P5T1LPDI1
+3,41,,,[P5T1LPDI2]P5T1LPDI2
+3,42,,,[P5T1LPDO1]P5T1LPDO1
+3,43,,,[P5T1LPDO2]P5T1LPDO2
+3,44,,,[P5TCSSCBR1]P5TCSSCBR1
+3,45,,,[P5THFPTTR1]P5THFPTTR1
+3,46,,,[P5VECAMMXU1]P5VECAMMXU1
+3,47,,,[P5VSEFPTOC1]P5VSEFPTOC1
+3,48,,,[P5VSEFPTOC2]P5VSEFPTOC2
+3,49,,,[P5VSEFPTOC3]P5VSEFPTOC3
+3,50,,,[P5VSEFPTOC4]P5VSEFPTOC4
+3,51,,,[ProtectionLLN0]ProtectionLLN0
+3,52,,,[RecordLLN0]RecordLLN0
+3,53,,,[RootLLN0]RootLLN0
+3,54,,,[SystemLLN0]SystemLLN0
+10,1,,,"[I>1 Start]Start Phase Overcurrent Protection -
+Stage 1"
+10,2,,,"[I>1 Start]Start Phase Overcurrent Protection -
+Stage 2"
+10,3,,,"[I>1 Start]Start Phase Overcurrent Protection -
+Stage 3"
+10,4,,,"[I>1 Start]Start Phase Overcurrent Protection -
+Stage 4"
+10,5,,,[St]Start
+10,6,,,[Str1]SOTF start
+10,7,,,[A]P5RMSAMMXU1.
+10,8,,,[A]P5VECAMMXU1.A
+10,9,,,[A0]P5RMSAMMXU1.A0
+10,10,,,[c1]P5AMSQI1.SeqA.c1
+10,11,,,[c2]P5AMSQI1.SeqA.c2
+10,12,,,[c3]P5AMSQI1.SeqA.c3
+10,13,,,[Hz]P5VECAMMXU1.Hz
+10,14,,,[neut]P5RMSAMMXU1.A.neut
+10,15,,,[neut]P5RMSAMMXU1.A.neut
+10,16,,,[neut]P5VECAMMXU1.A.neut
+10,17,,,[neut]P5VECAMMXU1.A0.neut
+10,18,,,[OpTmCls]OpTmCls
+10,19,,,[OpTmOpn]OpTmOpn
+10,20,,,[PhaseMagAngleMeasures1]PhaseMagAngleMeasures1
+10,21,,,[PhaseRmsMeasures1]PhaseRmsMeasures1
+10,22,,,[phsA]P5RMSAMMXU1.A.phsA
+10,23,,,[phsA]P5VECAMMXU1.A.phsA
+10,24,,,[phsB]P5RMSAMMXU1.A.phsB
+10,25,,,[phsB]P5VECAMMXU1.A.phsB
+10,26,,,[phsC]P5RMSAMMXU1.A.phsC
+10,27,,,[phsC]P5VECAMMXU1.A.phsC
+10,28,,,[res]P5RMSAMMXU1.A.res
+10,29,,,[res]P5VECAMMXU1.A.res
+10,30,,,[SeqA]P5AMSQI1.SeqA
+10,31,,,[ThmLev]ThmLev
+10,32,,,[Tmp]Tmp
+10,33,,,[TmpAmbO]TmpAmbO
+10,34,,,"[I>1 Operate]Operate Phase Overcurrent Protection
+- Stage 1"
+10,35,,,"[I>1 Operate]Operate Phase Overcurrent Protection
+- Stage 2"
+10,36,,,"[I>1 Operate]Operate Phase Overcurrent Protection
+- Stage 3"
+10,37,,,"[I>1 Operate]Operate Phase Overcurrent Protection
+- Stage 4"
+10,38,,,[Op]Cold Load Pick-Up operate
+10,39,,,[Op]Operate
+10,40,,,[Op]Thermal Operate
+10,41,,,[Op1]SOTF operate
+10,42,,,[SOLOp1]68 SOL1 - Operate
+10,43,,,[SOLOp2]68 SOL2 - Operate
+10,44,,,[Str]Inrush detection
+10,45,,,[I>1 Drop Out]Drop Out output facility
+10,46,,,[Alm1]Time Delayed Alarm
+10,47,,,[AlmThm]Thermal Alarm Status
+10,48,,,[Blk]68 Inhibited - Stage 1
+10,49,,,[Blk]68 Inhibited
+10,50,,,[Blk]Protection Inhibited
+10,51,,,[Blk]SOTF Inhibited
+10,52,,,[Blk]Thermal inhibited
+10,53,,,[DscTmpAlm]Temperature Discrepancy Alarm
+10,54,,,"[I>1 Prot.Inh.]Protection inhibited output
+facility"
+10,55,,,"[Ind1]Instantaneous Block for Inhibition of
+Protection Elements"
+10,56,,,[Prot.Inh.]Protection inhibited
+10,57,,,[RsvAlm]Time Remaining To Trip Alarm
+10,58,,,[TmpAlm]Ambient Temperature Loss Alarm
+10,59,,,[TrLtch]To Latch the trip relay
+21,1,,,Bon
+21,2,,,Avertissement
+21,3,,,Alarme
+100,0,,,[LED1RCm]LED1 Red Command
+100,1,,,[LED1GCm]LED1 Green Command
+100,2,,,[LED3GCm]LED3 Green Command
+100,3,,,
+100,4,,,[InRef1]Ch1RefSlot1
+100,5,,,[InRef2]Ch2RefSlot1
+100,6,,,[InRef3]Ch3RefSlot1
+100,7,,,[InRef4]Ch4RefSlot1
+100,8,,,[InRef0]InRef0
+100,9,,,[InRef1]InRef1
+100,10,,,[InRef2]InRef2
+100,11,,,[InRef3]InRef3
+100,12,,,[InRef4]InRef4
+100,13,,,[InRef5]InRef5
+100,14,,,[inh_desc]Inhibit_description
+100,15,,,[TmBlk_desc]TmBlk_description
+100,16,,,[TmHld_desc]TmHld_description
+100,17,,,[OpBlk_desc]OpBlk_description
+100,18,,,[SOLOp_desc]SOLOp_description
+100,19,,,[LBOp_desc]LBOp_description
+100,20,,,[IA/IB/IC_desc]IA/IB/IC_description
+100,21,,,[I0_desc]I0_description
+100,22,,,[InRef2_desc]InRef2_description
+100,23,,,[SetMod]Protection function ON/OFF
+100,24,,,[AlmMod]Thermal Alarm function ON/OFF
+100,25,,,"[RsvMod]Reserve Time Alarm function
+ON/OFF"
+100,26,,,"[TmpMod]Temperature based setting Mode
+ON/OFF"
+100,27,,,"[TmpAmbMod]Ambient Temperature Compensation
+ON/OFF"
+100,28,,,[ThmRsIn]ThmRsIn
+100,29,,,[OpCntAlm]Alarm CB Operation Number
+100,30,,,[SumSwAWrm]Warning CB Broken Current
+100,31,,,[SumSwAAlm]Alarm CB Broken Current
+100,32,,,"[OpTmOpnWrn]Warning CB Open Operating
+Time"
+100,33,,,[OpTmOpnAlm]Alarm CB Open Operating Time
+100,34,,,"[OpTmClsWrn]Warning CB Close Operating
+Time"
+100,35,,,[OpTmClsAlm]Alarm CB Close Operating Time
+100,36,,,[OpCntTmStr]CB Operation Number
+100,37,,,"[SetMod]CB Monitoring and Maintenance
+ON/OFF"
+100,38,,,[SwAWrnEna]Broken Current Warning ON/OFF
+100,39,,,"[SwAWrnVal]Broken Current Threshold
+Warning"
+100,40,,,[SwAAlmVal]Broken Current Alarm
+100,41,,,"[OpCntWrnSt]CB Op Counter Threshold Warning
+ON/OFF"
+100,42,,,"[OpCntWrNum]CB Op Counter Threshold
+Warning"
+100,43,,,"[OpCntAlmSt]CB Op Counter Threshold Alarm
+ON/OFF"
+100,44,,,[OpCntAlNum]CB Op Counter Threshold Alarm
+100,45,,,"[OpOpnWrnSt]CB Open Op Time Warning
+ON/OFF"
+100,46,,,"[OpOpnWrnTm]CB Open Op Time Threshold
+Warning"
+100,47,,,[OpOpnAlmSt]CB Open Op Time Alarm ON/OFF
+100,48,,,"[OpOpnAlmTm]CB Open Op Time Threshold
+Alarm"
+100,49,,,"[OpClsWrnSt]CB Close Op Time Warning
+ON/OFF"
+100,50,,,"[OpClsWrnTm]CB Close Op Time Threshold
+Warning"
+100,51,,,[OpClsAlmSt]CB Close Op Time Alarm ON/OFF
+100,52,,,"[OpClsAlTm]CB Close Op Time Threshold
+Alarm"
+100,53,,,[SetMod]TCS function ON/OFF
+100,54,,,[TcsTmms]TCS Timer
+100,55,,,[CBAux52b]CBAux52b
+100,56,,,[CBAux52a]CBAux52a
+100,57,,,[DITcs]DITcs
+100,58,,,[DIResAlm]DIResAlm
+100,59,,,[SetMod]CLPU function ON/OFF
+100,60,,,[ClpuTmStat]Clpu Timer status
+100,61,,,[DIResLtch]DIResLtch
+100,62,,,[SetMod]SOL function ON/OFF
+100,63,,,[Trip]
+100,64,,,[Re-Trip]
+100,65,,,[Local]
+100,66,,,[Close]
+100,67,,,[Discrp]Discrepency
+100,68,,,[CB Pos]
+100,69,,,[Blk Opn]
+100,70,,,[Blk Cls]
+100,71,,,Circuit Breaker
+100,72,,,[Cls Time]Closing pulse time
+100,73,,,[Tr Time]Trip pulse time
+100,74,,,[Dsc Time]Discrepancy time sup.
+100,75,,,[CB Aux M]CB auxiliary management
+100,76,,,[CB Cmd M]CB command management
+100,77,,,[OpIn]
+100,78,,,[OpEx]
+100,79,,,[OpCls]
+100,80,,,[EmCls]
+100,81,,,[TrLtch]
+100,82,,,[BlkOpn]
+100,83,,,[EnBlk]
+100,84,,,[52a]
+100,85,,,[52b]
+100,86,,,[OpOpn]
+100,87,,,[ManOpn]
+100,88,,,[ManCls]
+100,89,,,[IOp Opn]
+100,90,,,[Op Cls]
+100,91,,,CB Control
+100,92,,,[CB Suppr]CB Pos Suppr.
+100,93,,,[CB Bad]CB Pos Bad state
+100,94,,,[CB Int.]CB Pos Int.
+100,95,,,[CB S. AR]CB Pos Suppr. AR
+100,96,,,[Org DI]Origin DI
+100,97,,,[CB O Sup]
+100,98,,,[CB C Sup]
+100,99,,,[EnaCls]
+100,100,,,[EnaOpn]
+100,101,,,[Rel]
+100,102,,,[CBPos]
+100,103,,,[SigSup]
+100,104,,,Control
+100,105,,,Inref
+100,106,,,Health
+100,107,,,Led Status
+100,108,,,Time Format
+100,109,,,Alarm Status
+100,110,,,Name
+100,111,,,IED Language
+100,112,,,Alarm Category
+100,113,,,OpMod
+100,114,,,Time
+100,115,,,Value
+100,116,,,Status
+100,117,,,Led Operator
+100,118,,,Mode
+100,119,,,Setting
+100,120,,,Type
+100,121,,,Led Priority
+100,122,,,ACD
+100,123,,,Led Color
+100,9999,,,Unknown Label
+1234,5678,,,C'est une chaîne Unicode255
+8000,0,,,Alarms
+8000,1,,,Bay Panel
+8000,2,,,Measurements
+8000,3,,,Settings
+8000,4,,,Maintenance
+8000,5,,,Records
+8000,6,,,Commissioning & test
+8000,7,,,Device
+8000,8,,,StartUp
+8000,9,,,Start Page
+8000,10,,,Banner
+8000,11,,,Disclaimer
+8000,12,,,Help
+8000,13,,,IndexString
+8000,14,,,Log in
+8000,15,,,NumericKeyboard
+8000,16,,,Popup
+8000,17,,,Vector
+8000,18,,,Histogram
+8000,19,,,Trend
+8000,20,,,Waveform
+8000,21,,,USB
+8000,22,,,StringEditor
+8000,23,,,Percent
+8000,24,,,PgDn
+8000,25,,,PgUp
+8000,26,,,Expand
+8000,27,,,Back
+8000,28,,,Next
+8000,29,,,USB
+8000,30,,,Edit
+8000,31,,,TAB
+8000,32,,,Date
+8000,33,,,Time
+8000,34,,,Confirm
+8000,35,,,Apply
+8000,36,,,Select
+8000,37,,,Cancel
+8000,38,,,Help
+8000,39,,,Log in
+8000,40,,,Lang
+8000,41,,,Device
+8000,42,,,Ack/Cl
+8000,43,,,Trigger
+8000,44,,,Tools
+8000,45,,,FltrOFF
+8000,46,,,FltrOn
+8000,47,,,Bottom
+8000,48,,,Curves
+8000,49,,,Cause1
+8000,50,,,Cause2
+8000,51,,,Cause3
+8000,52,,,CauseN
+8000,53,,,Calculation
+8000,54,,,Control
+8000,55,,,Status
+8000,56,,,Open
+8000,57,,,Close
+8000,58,,,Unknown
+8000,59,,,Backspace
+8000,60,,,Submit
+8000,61,,,UserName
+8000,62,,,Password
+8000,63,,,Please Log in
+8000,64,,,Log out
+8000,65,,,Ack
+8000,66,,,Ack
+8000,67,,,UnAck
+8000,68,,,Active
+8000,69,,,Inactive
+8000,70,,,Ack Group/All
+8000,71,,,Clear Group/All
+8000,72,,,Ack&Clear All
+8000,73,,,English
+8000,74,,,Chinese
+8000,75,,,French
+8000,76,,,Yes
+8000,77,,,No
+8000,78,,,On
+8000,79,,,Off
+8000,80,,,Enable
+8000,81,,,Disable
+8000,82,,,odd
+8000,83,,,even
+8000,84,,,rigib
+8000,85,,,sntp
+8000,86,,,1pps
+8000,87,,,12H
+8000,88,,,24H
+8000,89,,,YYYY-MM-DD
+8000,90,,,YYYY-DD-MM
+8000,91,,,MM-DD-YYYY
+8000,92,,,DD-MM-YYYY
+8000,93,,,MM-YYYY-DD
+8000,94,,,DD-YYYY-MM
+8000,95,,,SigleBut
+8000,96,,,MultBut
+8000,97,,,Computing Failed
+8000,98,,,Duration Time
+8000,99,,,Possible Reason
+8000,100,,,Data lost
+8000,101,,,Data broken
+8000,102,,,Data partly reset
+8000,103,,,Event ongoing
+8000,104,,,AM
+8000,105,,,PM
+8000,106,,,Accept
+8000,107,,,Refuse
+8000,108,,,Access to this system is
+8000,109,,,limited to specifically
+8000,110,,,authorized users having
+8000,111,,,received all trainings 
+8000,112,,,required by applicable 
+8000,113,,,"laws, regulations, and "
+8000,114,,,by policies&procedures
+8000,115,,,implemented by the legal
+8000,116,,,entity hosting this 
+8000,117,,,system.Unauthorized users
+8000,118,,,may face criminal or 
+8000,119,,,civilliabilities and/or
+8000,120,,,penalties. The use of
+8000,121,,,the system may be recorded
+8000,122,,,and monitored for system 
+8000,123,,,"operations, security policy"
+8000,124,,,and intellectual property
+8000,125,,,compliance related purposes
+8000,126,,,and any information related
+8000,127,,,to the use of this system
+8000,128,,,may further be disclosed to
+8000,129,,,third parties or law
+8000,130,,,enforcement officials as
+8000,131,,,necessary.Disconnect it if
+8000,132,,,you are not an authorized
+8000,133,,,user or do not agree with
+8000,134,,,the above terms.
+8000,135,,,A
+8000,136,,,V
+8000,137,,,Hz
+8000,138,,,Deg
+8000,139,,,W
+8000,140,,,h
+8000,141,,,m
+8000,142,,,s
+8000,143,,,sym/s
+8000,144,,,%
+8000,145,,,Deg
+8000,146,,,Please Press 
+8000,147,,,to 
+8000,148,,,Do you want to
+8000,149,,,will close quickly
+8000,150,,,Press cancel to abort
+8000,151,,,Command rejected
+8000,152,,, is already
+8000,153,,,PLEASE PRESS AGAIN TO
+8000,154,,,SELECT THE NEXT ONE
+8000,155,,,(or press Cancel)
+8000,156,,,CB has been
+8000,157,,,Successfully
+8000,158,,,OPENED
+8000,159,,,CLOSED
+8000,160,,,CB Status :
+8000,161,,,Local control :
+8000,162,,,PERMITTED
+8000,163,,,Available for
+8000,164,,,closure : YES
+8000,165,,,opening : YES
+8000,166,,,Use navigation
+8000,167,,,keys to select
+8000,168,,,device to control
+8000,169,,,Clear
+8000,170,,,Details
+8000,171,,,New data Saved(Y/N)?
+8000,172,,,Press Confirm or Cancel
+8000,173,,,Invalid Value!
+8000,174,,,will open quickly
+8000,175,,,Login OK
+8000,176,,,UserName error!
+8000,177,,,Password error!
+8000,178,,,Remaining attemps:
+8000,179,,,Exceed times limit!
+8000,180,,,Enter Mainten Mode
+8000,181,,,Enter Normal Mode
+8000,182,,,View
+8000,183,,,Zoom+
+8000,184,,,Zoom-
+8000,185,,,More
+8000,186,,,I
+8000,187,,,CLEAR TO CANCEL
+8000,188,,,IA
+8000,189,,,IB
+8000,190,,,IC
+8000,191,,,VA
+8000,192,,,VB
+8000,193,,,VC
+8000,194,,,Freq
+8000,195,,,IN Sensi
+8000,196,,,V Checks
+8000,197,,,kA
+8000,198,,,kV
+8000,199,,,SEF
+8000,200,,,Protection
+8000,201,,,Advanced
+8000,202,,,Phases
+8000,203,,,Distortion&Unbalance
+8000,204,,,Energies
+8000,205,,,Harmonics
+8000,206,,,Harmonics raws
+8000,207,,,Power System
+8000,208,,,Monitored Element
+8000,209,,,External Transducers
+8000,210,,,IED Self Monitoring
+8000,211,,,All
+8000,212,,,Critical
+8000,213,,,Urgent
+8000,214,,,High
+8000,215,,,Medium
+8000,216,,,Low
+8000,217,,,Alm1
+8000,218,,,Alm2
+8000,219,,,Alm3
+8000,220,,,Alm4
+8000,221,,,Alm5
+8000,222,,,Alm6
+8000,223,,,Alm7
+8000,224,,,Alm8
+8000,225,,,Alm9
+8000,226,,,Alm10
+8000,227,,,Alm11
+8000,228,,,Alm12
+8000,229,,,Alm13
+8000,230,,,Alm14
+8000,231,,,Alm15
+8000,232,,,Alm16
+8000,233,,,Alm17
+8000,234,,,Alm18
+8000,235,,,Alm19
+8000,236,,,Alm20
+8000,237,,,Type
+8000,238,,,Locat Src
+8000,239,,,Severity
+8000,240,,,Category
+8000,241,,,Ack Status
+8000,242,,,Status
+8000,243,,,Descrpton
+8000,244,,,Reset OperationHours
+8000,245,,,Change OperationMode
+8000,246,,,Globally Ack Alarm
+8000,247,,,Globally Clear Alarms
+8000,248,,,Database Switch
+8000,249,,,Language
+8000,250,,,HMI
+8000,251,,,Select Exit Time
+8000,252,,,Inactive Timer
+8000,253,,,DefScrnNorm
+8000,254,,,DefScrnAbnm
+8000,255,,,CBCtrolMode
+8000,256,,,PwrSaveTimeout
+8000,257,,,LogoutTimeout
+8000,258,,,Time Format
+8000,259,,,Date Format
+8000,260,,,BrightLvl
+8000,261,,,ContrastLvl
+8000,262,,,Date and Time
+8000,263,,,System Time
+8000,264,,,Maintenance parameters
+8000,265,,,IP Address
+8000,266,,,Di Debounce Time
+8000,267,,,Di Filtering Value
+8000,268,,,Protection Group1
+8000,269,,,Protection Group2
+8000,270,,,Protection Group3
+8000,271,,,Protection Group4
+8000,272,,,SG_Set1
+8000,273,,,SG_Set2
+8000,274,,,SG_Set3
+8000,275,,,Date&Time
+8000,276,,,CT&VT Ratio
+8000,277,,,CT
+8000,278,,,VT
+8000,279,,,Temperature Sensors
+8000,280,,,Control
+8000,281,,,Arc Protection
+8000,282,,,Communication
+8000,283,,,Records
+8000,284,,,Waveform
+8000,285,,,Disturbance
+8000,286,,,Context Records
+8000,287,,,Motor Startup Record
+8000,288,,,Overcurrent
+8000,289,,,EF overcurrent
+8000,290,,,Distance protection
+8000,291,,,Thermal overload
+8000,292,,,Power swing
+8000,293,,,Residual overvoltage
+8000,294,,,Broken conductor
+8000,295,,,CB fail
+8000,296,,,Supervision
+8000,297,,,Serail Port1
+8000,298,,,Serail Port2
+8000,299,,,Ether. Port1
+8000,300,,,Ether. Port2
+8000,301,,,Disclaimer
+8000,302,,,Banner
+8000,303,,,This Fusion IED is IED_001!
+8000,304,,,Please make sure you are
+8000,305,,,connecting the right IED!
+8000,306,,,Disconnect it NOW if not!!!
+8000,307,,,IED Information
+8000,308,,,Binary Status
+8000,309,,,IED Status
+8000,310,,,User Record
+8000,311,,,User Manual
+8000,312,,,Certificate
+8000,313,,,Substation Document
+8000,314,,,Reports
+8000,315,,,Miscellaneous
+8000,316,,,Hardware Status
+8000,317,,,Communication Port
+8000,318,,,Synchronization
+8000,319,,,HMI Test
+8000,320,,,Memory
+8000,321,,,Download
+8000,322,,,Upload
+8000,323,,,Copy
+8000,324,,,Type
+8000,325,,,Application
+8000,326,,,Model
+8000,327,,,Name
+8000,328,,,GPS
+8000,329,,,Event
+8000,330,,,Application Context Record
+8000,331,,,Waveform
+8000,332,,,Trip
+8000,333,,,Overload
+8000,334,,,Start
+8000,335,,,NonSyn
+8000,336,,,Fast Waveform
+8000,337,,,Slow Waveform
+8000,338,,,All
+8000,339,,,All
+8000,340,,,Application Data
+8000,341,,,Maintenance Log
+8000,342,,,Substitution
+8000,343,,,Switch To Mainten Mode
+8000,344,,,Switch To Test Mode
+8000,345,,,SLD
+8000,346,,,Inputs
+8000,347,,,Outputs
+8000,348,,,GOOSE
+8000,349,,,Substitu
+8000,350,,,PWR TR Input
+8000,351,,,Inter Logic
+8000,352,,,400KV GooseInp
+8000,353,,,Transf GooseInp
+8000,354,,,Goose Output1
+8000,355,,,Digital Output1
+8000,356,,,Digital Output2
+8000,357,,,CPU
+8000,358,,,Temperature
+8000,359,,,Board
+8000,360,,,Memory
+8000,361,,,USB
+8000,362,,,RJ45
+8000,363,,,Ethernet
+8000,364,,,CAN
+8000,365,,,IRIGB
+8000,366,,,SNTP
+8000,367,,,1PPS
+8000,368,,,All
+8000,369,,,LED
+8000,370,,,Key
+8000,371,,,LCD
+8000,372,,,Curent CPUload
+8000,373,,,Current Tempe
+8000,374,,,DI Board
+8000,375,,,Memory check
+8000,376,,,Used Nand Flash
+8000,377,,,Used DDR
+8000,378,,,Used EEPROM
+8000,379,,,USB Frt Status
+8000,380,,,Ether Status
+8000,381,,,SNTP Status
+8000,382,,,SNTP period
+8000,383,,,SNTP accuracy
+8000,384,,,Active
+8000,385,,,Inactive
+8000,386,,,Unknown
+8000,387,,,Ok
+8000,388,,,Nok
+8000,389,,,Unknown
+8000,390,,,DI
+8000,391,,,DO
+8100,0,,,"Alarms Panel help String can be very long if we
+want"
+8100,1,,,"Bay Panel Panel help String can be very long if we
+want"
+8100,2,,,"Measurements Panel help String can be very long if
+we want"
+8100,3,,,"Settings Panel help String can be very long if we
+want"
+8100,4,,,"Maintenance Panel help String can be very long if
+we want"
+8100,5,,,"Records Panel help String can be very long if we
+want"
+8100,6,,,"Commissioning Panel help String can be very long
+if we want"
+8100,7,,,"Device Panel help String can be very long if we
+want"
+8100,8,,,"Startup Panel help String can be very long if we
+want"
+8100,9,,,"Start Page Panel help String can be very long if
+we want"
+8100,10,,,"SE Banner Panel help String can be very long if
+we want"
+8100,11,,,"Cyber Security Banner Panel help String can be
+very long if we want"
+8100,13,,,"IndexString Panel help String can be very long if
+we want"
+8100,14,,,"Login Panel help String can be very long if we
+want"
+8100,15,,,"NumericKeyboard Panel help String can be very
+long if we want"
+8100,16,,,"Popup Panel help String can be very long if we
+want"
+8100,17,,,"Vector Panel help String can be very long if we
+want"
+8100,18,,,"Histogram Panel help String can be very long if
+we want"
+8100,19,,,"Trend Panel help String can be very long if we
+want"
+8100,20,,,"Waveform Panel help String can be very long if we
+want"
+8100,21,,,"USB Panel help String can be very long if we
+want"
+8100,22,,,"StringEditor Panel help String can be very long
+if we want"
