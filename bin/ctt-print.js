@@ -13,7 +13,7 @@ program
   .option('-i, --in <filename>', 'Source dictionary file. If not specified, defaults to stdin')
   .option('-o, --out <filename>', 'Target language file, defaults to stdout')
   .option('-t, --type <type>', 'Plugin to be used, defaults to "fusion"')
-  .option('-l, --lang <langId>', 'Lanuguage to print');
+  .option('-l, --lang <langId>', 'Language to print');
 
 var plugin;
 
