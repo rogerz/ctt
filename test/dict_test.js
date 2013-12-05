@@ -33,7 +33,14 @@ describe('Dict', function () {
       { fr: 'bonjour', key: 'val2'}
     ]);
   });
-  it('should create a proxy for csv', function () {
-    dict.csv().should.have.property('to');
+  describe ('csv', function () {
+    it('should create a proxy for csv', function () {
+      dict.csv().should.have.property('to');
+    });
+    it('should export csv', function () {
+        dict.csv('ctx').to.string(function (data) {
+        data.should.eql('key,en,fr\nval1,hello,\nval2,,bonjour');
+      }, {columns: ['key', 'en', 'fr'], header: true});
+    });
   });
 });
